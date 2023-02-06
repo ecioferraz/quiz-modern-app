@@ -11,6 +11,7 @@ export const theme = {
     },
     family: {
       default: '"Montserrat", sans-serif',
+      secondaryFont: '"Nunito", sans-serif',
     },
     sizes: {
       xsmall: '0.8rem',
@@ -21,6 +22,12 @@ export const theme = {
       xxlarge: '4.8rem',
       huge: '5.6rem',
       xhuge: '6.4rem',
+    },
+    weight: {
+      regular: 400,
+      medium: 500,
+      semiBold: 600,
+      bold: 700,
     },
   },
   media: {
