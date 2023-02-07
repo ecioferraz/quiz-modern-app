@@ -28,7 +28,7 @@ export default function RecentQuiz() {
           ({ background, category, percentage, iconSrc }) => (
             <Styled.RecentQuizCardContainer key={category}>
               <SvgCard alt={`${category} icon`} src={iconSrc} />
-              <TextCard size="small">{category}</TextCard>
+              <TextCard as="h2" size="small">{category}</TextCard>
               <TextCard as="p" size="small">
                 You completed {percentage}%
               </TextCard>

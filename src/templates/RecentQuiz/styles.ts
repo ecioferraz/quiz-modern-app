@@ -2,6 +2,10 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.section`
   ${({ theme }) => css`
+    h1 {
+      color: ${theme.font.color.tertiaryColor};
+      font-weight: ${theme.font.weight.semiBold};
+    }
     margin: 1.6rem 0;
   `}
 `;
@@ -35,7 +39,7 @@ export const RecentQuizCardContainer = styled.section`
       width: 40px;
     }
 
-    h1 {
+    h2 {
       font-size: 1.4rem;
       font-weight: ${theme.font.weight.semiBold};
     }
