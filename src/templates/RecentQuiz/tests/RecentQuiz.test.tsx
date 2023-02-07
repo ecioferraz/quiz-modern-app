@@ -1,5 +1,6 @@
 import renderTheme from '../../../styles/renderTheme';
 import RecentQuiz from '..';
+import { describe, expect, it } from 'vitest';
 
 describe('<RecentQuiz />', () => {
   it('should render <RecentQuiz />', () => {
@@ -32,6 +33,11 @@ describe('<RecentQuiz />', () => {
 
       .c0 {
         margin: 1.6rem 0;
+      }
+
+      .c0 h1 {
+        color: #999999;
+        font-weight: 600;
       }
 
       .c2 {
@@ -79,7 +85,7 @@ describe('<RecentQuiz />', () => {
         width: 40px;
       }
 
-      .c3 h1 {
+      .c3 h2 {
         font-size: 1.4rem;
         font-weight: 600;
       }
@@ -114,11 +120,11 @@ describe('<RecentQuiz />', () => {
                   src="assets/icons/open-book.svg"
                 />
               </section>
-              <h1
+              <h2
                 class="c1"
               >
                 Reading
-              </h1>
+              </h2>
               <p
                 class="c1"
               >
@@ -146,11 +152,11 @@ describe('<RecentQuiz />', () => {
                   src="assets/icons/speaker.svg"
                 />
               </section>
-              <h1
+              <h2
                 class="c1"
               >
                 Speaking
-              </h1>
+              </h2>
               <p
                 class="c1"
               >
