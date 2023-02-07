@@ -1,6 +1,5 @@
 import SvgCard from '../../components/SvgCard';
 import TextCard from '../../components/TextCard';
-import AchievementProps from './Achievement.props';
 import * as Styled from './styles';
 
 export default function Achievement() {
