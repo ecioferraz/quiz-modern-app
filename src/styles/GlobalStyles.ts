@@ -7,7 +7,7 @@ export const GlobalStyles = createGlobalStyle`
       font-family: ${theme.font.family.default};
       margin: 0;
       padding: 0;
-      transition: 0.8s all ease-in-out;
+      /* transition: 0.8s all ease-in-out; */
     }
 
     html {
@@ -15,6 +15,7 @@ export const GlobalStyles = createGlobalStyle`
       scroll-behavior: smooth;
       display: flex;
       justify-content: center;
+      position: relative;
     }
 
     body {
@@ -22,15 +23,9 @@ export const GlobalStyles = createGlobalStyle`
       color: ${theme.font.color.primaryColor};
       font-family: ${theme.font.family.default};
       font-size: ${theme.font.sizes.small};
+      position: absolute;
       padding: ${theme.spacings.xlarge} ${theme.spacings.medium};
-    }
-
-    main {
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 100vh;
+      width: 100%;
     }
 
     h1, h2, h3, h4, h5, h6 {
