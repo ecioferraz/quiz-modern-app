@@ -1,6 +1,10 @@
 // Vitest Snapshot v1
 
 exports[`<PopularQuiz /> > should render <PopularQuiz /> 1`] = `
+.c1 {
+  font-size: 1.6rem;
+}
+
 .c4 {
   background: #FFE3BE;
 }
@@ -11,16 +15,6 @@ exports[`<PopularQuiz /> > should render <PopularQuiz /> 1`] = `
 
 .c8 {
   background: #F6E5E5;
-}
-
-.c1 {
-  font-size: 1.6rem;
-}
-
-.c0 h1 {
-  color: #999999;
-  font-weight: 600;
-  margin: 3.2rem 0 1.6rem 0;
 }
 
 .c2 {
@@ -115,6 +109,18 @@ exports[`<PopularQuiz /> > should render <PopularQuiz /> 1`] = `
   display: -ms-flexbox;
   display: flex;
   gap: 0.6rem;
+}
+
+.c0 h1 {
+  color: #999999;
+  font-weight: 600;
+  margin: 3.2rem 0 1.6rem 0;
+}
+
+.c0 a {
+  color: #C4C4C4;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 <div>
