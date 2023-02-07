@@ -9,6 +9,17 @@ describe('<Button />', () => {
 
     const button = screen.getByRole('button', { name: 'Button' });
 
-    expect(button).toMatchInlineSnapshot();
+    expect(button).toMatchInlineSnapshot(`
+      .c0 {
+        height: 4.8rem;
+        font-weight: 600;
+      }
+
+      <button
+        class="c0"
+      >
+        Button
+      </button>
+    `);
   });
 });

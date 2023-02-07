@@ -11,6 +11,11 @@ describe('<SvgCard />', () => {
 
     const svgCard = screen.getByAltText('alt test');
 
-    expect(svgCard).toMatchInlineSnapshot();
+    expect(svgCard).toMatchInlineSnapshot(`
+      <img
+        alt="alt test"
+        src="src test"
+      />
+    `);
   });
 });
