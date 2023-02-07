@@ -7,7 +7,7 @@ describe('<HeroHeader />', () => {
     const { container } = renderTheme(<HeroHeader username='username test' />);
 
     expect(container).toMatchInlineSnapshot(`
-      .c1 {
+      .c3 {
         font-size: 1.6rem;
       }
 
@@ -27,7 +27,11 @@ describe('<HeroHeader />', () => {
         height: 4.0rem;
       }
 
-      .c0 section:has(h1) {
+      .c0 img {
+        height: 2.4rem;
+      }
+
+      .c1 {
         -webkit-align-items: center;
         -webkit-box-align: center;
         -ms-flex-align: center;
@@ -38,11 +42,11 @@ describe('<HeroHeader />', () => {
         display: flex;
       }
 
-      .c0 section:has(h1) img {
+      .c1 img {
         height: 4.0rem;
       }
 
-      .c0 section:has(h1) > section {
+      .c2 {
         -webkit-align-items: center;
         -webkit-box-align: center;
         -ms-flex-align: center;
@@ -57,26 +61,24 @@ describe('<HeroHeader />', () => {
         justify-content: center;
       }
 
-      .c0 section:has(h1) > section h1 {
+      .c2 h1 {
         font-weight: 600;
         margin-right: 0.3rem;
       }
 
-      .c0 section:has(h1) > section h1:first-child {
+      .c2 h1:first-child {
         color: #999999;
         font-weight: 500;
         margin-left: 1.6rem;
-      }
-
-      .c0 img {
-        height: 2.4rem;
       }
 
       <div>
         <header
           class="c0"
         >
-          <section>
+          <section
+            class="c1"
+          >
             <section
               class=""
             >
@@ -85,14 +87,16 @@ describe('<HeroHeader />', () => {
                 src="assets/hero/hero.svg"
               />
             </section>
-            <section>
+            <section
+              class="c2"
+            >
               <h1
-                class="c1"
+                class="c3"
               >
                 Hello, 
               </h1>
               <h1
-                class="c1"
+                class="c3"
               >
                 username test
               </h1>

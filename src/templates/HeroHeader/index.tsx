@@ -6,13 +6,13 @@ import * as Styled from './styles';
 export default function HeroHeader({ username }: HeroHeaderProps) {
   return (
     <Styled.Container>
-      <section>
+      <Styled.HeroContainer>
         <SvgCard alt={`${username} hero`} src="assets/hero/hero.svg" />
-        <section>
+        <Styled.GreetingContainer>
           <TextCard size='small'>Hello, </TextCard>
           <TextCard size='small'>{username}</TextCard>
-        </section>
-      </section>
+        </Styled.GreetingContainer>
+      </Styled.HeroContainer>
       <SvgCard alt='Notifications' src='assets/icons/bell.svg' />
     </Styled.Container>
   );
