@@ -13,6 +13,8 @@ export const GlobalStyles = createGlobalStyle`
     html {
       font-size: 62.5%;
       scroll-behavior: smooth;
+      display: flex;
+      justify-content: center;
     }
 
     body {
@@ -20,6 +22,7 @@ export const GlobalStyles = createGlobalStyle`
       color: ${theme.font.color.primaryColor};
       font-family: ${theme.font.family.default};
       font-size: ${theme.font.sizes.small};
+      padding: ${theme.spacings.xlarge} ${theme.spacings.medium};
     }
 
     main {
@@ -27,7 +30,6 @@ export const GlobalStyles = createGlobalStyle`
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 0 30rem;
       height: 100vh;
     }
 
