@@ -8,6 +8,8 @@ export const theme = {
       primaryColor: '#333333',
       secondaryColor: '#666666',
       tertiaryColor: '#999999',
+      quaternary: '#4E5C66',
+      heroColor: '#C4C4C4',
     },
     family: {
       default: '"Montserrat", sans-serif',
