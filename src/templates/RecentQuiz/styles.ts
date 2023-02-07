@@ -6,6 +6,7 @@ export const Container = styled.section`
       color: ${theme.font.color.tertiaryColor};
       font-weight: ${theme.font.weight.semiBold};
     }
+    
     margin: 1.6rem 0;
   `}
 `;

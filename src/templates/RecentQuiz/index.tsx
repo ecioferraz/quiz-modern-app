@@ -5,7 +5,7 @@ import RecentQuizProps from './RecentQuiz.props';
 import * as Styled from './styles';
 
 export default function RecentQuiz() {
-  const recentQuizCards: RecentQuizProps[] = [
+  const recentQuizProps: RecentQuizProps[] = [
     {
       background: '#21BDCA',
       category: 'Reading',
@@ -24,7 +24,7 @@ export default function RecentQuiz() {
     <Styled.Container>
       <TextCard size="small">Recent Quiz</TextCard>
       <Styled.CardsContainer>
-        {recentQuizCards.map(
+        {recentQuizProps.map(
           ({ background, category, percentage, iconSrc }) => (
             <Styled.RecentQuizCardContainer key={category}>
               <SvgCard alt={`${category} icon`} src={iconSrc} />
