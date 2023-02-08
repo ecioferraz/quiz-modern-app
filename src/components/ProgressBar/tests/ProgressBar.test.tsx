@@ -1,5 +1,6 @@
 import renderTheme from '../../../styles/renderTheme';
 import ProgressBar from '..';
+import { describe, expect, it } from 'vitest';
 
 describe('<ProgressBar />', () => {
   it('should render <ProgressBar />', () => {

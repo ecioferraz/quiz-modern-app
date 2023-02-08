@@ -5,7 +5,7 @@ import { describe, expect, it } from 'vitest';
 
 describe('<DetailList />', () => {
   it('should render <DetailList />', () => {
-    renderTheme(<DetailList>Children</DetailList>);
+    renderTheme(<DetailList />);
 
     const detailList = screen.getByRole('list');
 

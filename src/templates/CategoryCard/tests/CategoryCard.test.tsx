@@ -1,14 +1,16 @@
 import renderTheme from '../../../styles/renderTheme';
 import CategoryCard from '..';
+import { describe, expect, it } from 'vitest';
 
 describe('<CategoryCard />', () => {
   it('should render <CategoryCard /> with rating', () => {
     const { container } = renderTheme(
       <CategoryCard
         background="#FFE3BE"
-        category="Technology"
+        description='description test'
         iconSrc="assets/icons/desktop.svg"
         rating
+        title="title test"
       />,
     );
 
@@ -19,8 +21,9 @@ describe('<CategoryCard />', () => {
     const { container } = renderTheme(
       <CategoryCard
         background="#FFE3BE"
-        category="Technology"
+        description='description test'
         iconSrc="assets/icons/desktop.svg"
+        title="title test"
       />,
     );
 
