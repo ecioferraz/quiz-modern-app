@@ -27,6 +27,10 @@ describe('<RecentQuiz />', () => {
         width: 85%;
       }
 
+      .c1 {
+        font-size: 1.6rem;
+      }
+
       .c4 {
         -webkit-align-items: center;
         -webkit-box-align: center;
@@ -40,10 +44,6 @@ describe('<RecentQuiz />', () => {
         -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-      }
-
-      .c1 {
-        font-size: 1.6rem;
       }
 
       .c0 {

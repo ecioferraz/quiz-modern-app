@@ -7,6 +7,10 @@ describe('<Achievement />', () => {
     const { container } = renderTheme(<Achievement />);
 
     expect(container).toMatchInlineSnapshot(`
+      .c3 {
+        font-size: 1.6rem;
+      }
+
       .c1 {
         -webkit-align-items: center;
         -webkit-box-align: center;
@@ -20,10 +24,6 @@ describe('<Achievement />', () => {
         -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-      }
-
-      .c3 {
-        font-size: 1.6rem;
       }
 
       .c0 {
