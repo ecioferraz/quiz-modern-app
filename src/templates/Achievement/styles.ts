@@ -14,10 +14,12 @@ export const Container = styled.section`
     section:has(img) {
       margin: ${theme.spacings.small};
     }
+  `}
+`;
 
-    section:has(h1, p) {
-      margin-right: 7.8rem;
-    } 
+export const MessageContainer = styled.section`
+  ${({ theme }) => css`
+    margin-right: 7.8rem;
 
     h1, p {
       margin: 0.8rem;

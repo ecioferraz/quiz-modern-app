@@ -8,11 +8,22 @@ describe('<Achievement />', () => {
 
     expect(container).toMatchInlineSnapshot(`
       .c1 {
-        font-size: 1.6rem;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
       }
 
-      .c2 {
-        font-size: 5.6rem;
+      .c3 {
+        font-size: 1.6rem;
       }
 
       .c0 {
@@ -36,24 +47,18 @@ describe('<Achievement />', () => {
         margin: 1.6rem;
       }
 
-      .c0 section:has(h1,p) {
+      .c2 {
         margin-right: 7.8rem;
       }
 
-      .c0 h1,
-      .c0 p {
+      .c2 h1,
+      .c2 p {
         margin: 0.8rem;
       }
 
-      .c0 p {
+      .c2 p {
         color: #4E5C66;
         font-size: 1.2rem;
-      }
-
-      @media (max-width:768px) {
-        .c2 {
-          font-size: 4.8rem;
-        }
       }
 
       <div>
@@ -61,21 +66,23 @@ describe('<Achievement />', () => {
           class="c0"
         >
           <section
-            class=""
+            class="c1"
           >
             <img
               alt="Achievement percentage"
               src="assets/achievement/percentage.svg"
             />
           </section>
-          <section>
+          <section
+            class="c2"
+          >
             <h1
-              class="c1"
+              class="c3"
             >
               Good Result!
             </h1>
             <p
-              class="c2"
+              class="c3"
             >
               Share your achievement with your friend
             </p>

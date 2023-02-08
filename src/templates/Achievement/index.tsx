@@ -9,10 +9,10 @@ export default function Achievement() {
         alt="Achievement percentage"
         src="assets/achievement/percentage.svg"
       />
-      <section>
-        <TextCard size='small'>Good Result!</TextCard>
+      <Styled.MessageContainer>
+        <TextCard>Good Result!</TextCard>
         <TextCard as='p'>Share your achievement with your friend</TextCard>
-      </section>
+      </Styled.MessageContainer>
     </Styled.Container>
   );
 }
