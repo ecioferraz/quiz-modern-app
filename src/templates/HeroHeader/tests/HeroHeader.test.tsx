@@ -7,7 +7,22 @@ describe('<HeroHeader />', () => {
     const { container } = renderTheme(<HeroHeader username='username test' />);
 
     expect(container).toMatchInlineSnapshot(`
-      .c3 {
+      .c2 {
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+      }
+
+      .c4 {
         font-size: 1.6rem;
       }
 
@@ -25,6 +40,7 @@ describe('<HeroHeader />', () => {
         -ms-flex-pack: justify;
         justify-content: space-between;
         height: 4.0rem;
+        margin-top: 4.1rem;
       }
 
       .c0 img {
@@ -46,7 +62,7 @@ describe('<HeroHeader />', () => {
         height: 4.0rem;
       }
 
-      .c2 {
+      .c3 {
         -webkit-align-items: center;
         -webkit-box-align: center;
         -ms-flex-align: center;
@@ -61,12 +77,12 @@ describe('<HeroHeader />', () => {
         justify-content: center;
       }
 
-      .c2 h1 {
+      .c3 h1 {
         font-weight: 600;
         margin-right: 0.3rem;
       }
 
-      .c2 h1:first-child {
+      .c3 h1:first-child {
         color: #999999;
         font-weight: 500;
         margin-left: 1.6rem;
@@ -80,7 +96,7 @@ describe('<HeroHeader />', () => {
             class="c1"
           >
             <section
-              class=""
+              class="c2"
             >
               <img
                 alt="username test hero"
@@ -88,22 +104,22 @@ describe('<HeroHeader />', () => {
               />
             </section>
             <section
-              class="c2"
+              class="c3"
             >
               <h1
-                class="c3"
+                class="c4"
               >
                 Hello, 
               </h1>
               <h1
-                class="c3"
+                class="c4"
               >
                 username test
               </h1>
             </section>
           </section>
           <section
-            class=""
+            class="c2"
           >
             <img
               alt="Notifications"

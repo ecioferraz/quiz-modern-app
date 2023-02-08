@@ -9,11 +9,11 @@ export default function HeroHeader({ username }: HeroHeaderProps) {
       <Styled.HeroContainer>
         <SvgCard alt={`${username} hero`} src="assets/hero/hero.svg" />
         <Styled.GreetingContainer>
-          <TextCard size='small'>Hello, </TextCard>
-          <TextCard size='small'>{username}</TextCard>
+          <TextCard>Hello, </TextCard>
+          <TextCard>{username}</TextCard>
         </Styled.GreetingContainer>
       </Styled.HeroContainer>
-      <SvgCard alt='Notifications' src='assets/icons/bell.svg' />
+      <SvgCard alt="Notifications" src="assets/icons/bell.svg" />
     </Styled.Container>
   );
 }
