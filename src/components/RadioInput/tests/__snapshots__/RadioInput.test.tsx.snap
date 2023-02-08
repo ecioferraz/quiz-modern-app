@@ -1,0 +1,204 @@
+// Vitest Snapshot v1
+
+exports[`<RadioInput /> > should render <RadioInput /> 1`] = `
+.c2 {
+  font-size: 1.6rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 10px 24px 54px rgba(51,51,51,0.05);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 1.6rem;
+  padding: 1.6rem;
+}
+
+.c0 img {
+  width: 2.4rem;
+}
+
+.c0 p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <section
+      class="c1"
+    >
+      <img
+        alt="Radio option"
+        src="assets/icons/circle.svg"
+      />
+    </section>
+    <p
+      class="c2"
+    >
+      option test
+    </p>
+  </section>
+</div>
+`;
+
+exports[`<RadioInput /> > should render <RadioInput /> with correct answer 1`] = `
+.c2 {
+  font-size: 1.6rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #219653;
+  border-radius: 10px;
+  box-shadow: 10px 24px 54px rgba(51,51,51,0.05);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 1.6rem;
+  padding: 1.6rem;
+}
+
+.c0 img {
+  width: 2.4rem;
+}
+
+.c0 p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <section
+      class="c1"
+    >
+      <img
+        alt="Radio option"
+        src="assets/icons/circle.svg"
+      />
+    </section>
+    <p
+      class="c2"
+    >
+      option test
+    </p>
+  </section>
+</div>
+`;
+
+exports[`<RadioInput /> > should render <RadioInput /> with wrong answer 1`] = `
+.c2 {
+  font-size: 1.6rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #F6E5E5;
+  border-radius: 10px;
+  box-shadow: 10px 24px 54px rgba(51,51,51,0.05);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 1.6rem;
+  padding: 1.6rem;
+}
+
+.c0 img {
+  width: 2.4rem;
+}
+
+.c0 p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <section
+      class="c1"
+    >
+      <img
+        alt="Radio option"
+        src="assets/icons/circle.svg"
+      />
+    </section>
+    <p
+      class="c2"
+    >
+      option test
+    </p>
+  </section>
+</div>
+`;

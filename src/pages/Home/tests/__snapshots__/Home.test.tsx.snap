@@ -1,0 +1,664 @@
+// Vitest Snapshot v1
+
+exports[`<Home /> > should render <Home /> 1`] = `
+.c4 {
+  font-size: 1.6rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c16 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FFE3BE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c19 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #EAEEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c20 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #F6E5E5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: url('../../assets/images/achievement-bg.png') no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+  box-shadow: 10px 24px 54px rgba(51,51,51,0.03);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3.4rem 0 3.2rem;
+  width: 100%;
+}
+
+.c5 section:has(img) {
+  margin: 1.6rem;
+}
+
+.c6 {
+  margin-right: 7.8rem;
+}
+
+.c6 h1,
+.c6 p {
+  margin: 0.8rem;
+}
+
+.c6 p {
+  color: #4E5C66;
+  font-size: 1.2rem;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 4.0rem;
+}
+
+.c0 img {
+  height: 2.4rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 img {
+  height: 4.0rem;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 h1 {
+  font-weight: 600;
+  margin-right: 0.3rem;
+}
+
+.c3 h1:first-child {
+  color: #999999;
+  font-weight: 500;
+  margin-left: 1.6rem;
+}
+
+.c14 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 10px 24px 54px rgba(51,51,51,0.03);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 1.6rem 0;
+}
+
+.c14 > * {
+  margin: 1.6rem;
+  margin-right: 1.9rem;
+}
+
+.c15 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.c15 > section:has(img) {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 10px 24px 54px rgba(51,51,51,0.05);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 50px;
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.c17 h2,
+.c17 p {
+  margin: 0;
+}
+
+.c17 h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.c17 p {
+  color: #999999;
+  font-family: "Nunito",sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.c18 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.6rem;
+}
+
+.c18 p {
+  font-size: 1.4rem;
+}
+
+.c13 h1 {
+  color: #999999;
+  font-weight: 600;
+  margin: 3.2rem 0 1.6rem 0;
+}
+
+.c13 a {
+  color: #C4C4C4;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c10 {
+  background: #F2F2F2;
+  border-radius: 10rem;
+  height: 0.6rem;
+}
+
+.c11 {
+  background: #21BDCA;
+  border-radius: 10rem;
+  height: 0.6rem;
+  width: 65%;
+}
+
+.c12 {
+  background: #5372E7;
+  border-radius: 10rem;
+  height: 0.6rem;
+  width: 85%;
+}
+
+.c7 {
+  margin: 1.6rem 0;
+}
+
+.c7 h1 {
+  color: #999999;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+  margin-top: 0;
+}
+
+.c8 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c9 {
+  background: #FAFAFD;
+  border-radius: 10px;
+  width: 47%;
+}
+
+.c9 > * {
+  margin: 1.6rem;
+}
+
+.c9 section:has(img) {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 10px 24px 54px rgba(51,51,51,0.05);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.c9 h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.c9 p {
+  color: #999999;
+  font-family: "Nunito",sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 0.8rem;
+}
+
+<div>
+  <header
+    class="c0"
+  >
+    <section
+      class="c1"
+    >
+      <section
+        class="c2"
+      >
+        <img
+          alt="Jessica hero"
+          src="assets/hero/hero.svg"
+        />
+      </section>
+      <section
+        class="c3"
+      >
+        <h1
+          class="c4"
+        >
+          Hello, 
+        </h1>
+        <h1
+          class="c4"
+        >
+          Jessica
+        </h1>
+      </section>
+    </section>
+    <section
+      class="c2"
+    >
+      <img
+        alt="Notifications"
+        src="assets/icons/bell.svg"
+      />
+    </section>
+  </header>
+  <main>
+    <section
+      class="c5"
+    >
+      <section
+        class="c2"
+      >
+        <img
+          alt="Achievement percentage"
+          src="assets/achievement/percentage.svg"
+        />
+      </section>
+      <section
+        class="c6"
+      >
+        <h1
+          class="c4"
+        >
+          Good Result!
+        </h1>
+        <p
+          class="c4"
+        >
+          Share your achievement with your friend
+        </p>
+      </section>
+    </section>
+    <section
+      class="c7"
+    >
+      <h1
+        class="c4"
+      >
+        Recent Quiz
+      </h1>
+      <section
+        class="c8"
+      >
+        <section
+          class="c9"
+        >
+          <section
+            class="c2"
+          >
+            <img
+              alt="Reading icon"
+              src="assets/icons/open-book.svg"
+            />
+          </section>
+          <h2
+            class="c4"
+          >
+            Reading
+          </h2>
+          <p
+            class="c4"
+          >
+            You completed 
+            65
+            %
+          </p>
+          <div
+            class="c10"
+          >
+            <div
+              class="c11"
+              width="65"
+            />
+          </div>
+        </section>
+        <section
+          class="c9"
+        >
+          <section
+            class="c2"
+          >
+            <img
+              alt="Speaking icon"
+              src="assets/icons/speaker.svg"
+            />
+          </section>
+          <h2
+            class="c4"
+          >
+            Speaking
+          </h2>
+          <p
+            class="c4"
+          >
+            You completed 
+            85
+            %
+          </p>
+          <div
+            class="c10"
+          >
+            <div
+              class="c12"
+              width="85"
+            />
+          </div>
+        </section>
+      </section>
+    </section>
+    <section
+      class="c13"
+    >
+      <h1
+        class="c4"
+      >
+        Popular Quiz
+      </h1>
+      <section
+        class="c14"
+      >
+        <section
+          class="c15"
+        >
+          <section
+            class="c16"
+          >
+            <img
+              alt="Technology icon"
+              src="assets/icons/desktop.svg"
+            />
+          </section>
+          <section
+            class="c17"
+          >
+            <h2
+              class="c4"
+            >
+              Technology
+            </h2>
+            <p
+              class="c4"
+            >
+              10 Questions
+            </p>
+          </section>
+        </section>
+        <section
+          class="c18"
+        >
+          <section
+            class="c2"
+          >
+            <img
+              alt="Rating star"
+              src="assets/icons/star.svg"
+            />
+          </section>
+          <p
+            class="c4"
+          >
+            4.8
+          </p>
+        </section>
+      </section>
+      <section
+        class="c14"
+      >
+        <section
+          class="c15"
+        >
+          <section
+            class="c19"
+          >
+            <img
+              alt="Sport icon"
+              src="assets/icons/ball.svg"
+            />
+          </section>
+          <section
+            class="c17"
+          >
+            <h2
+              class="c4"
+            >
+              Sport
+            </h2>
+            <p
+              class="c4"
+            >
+              10 Questions
+            </p>
+          </section>
+        </section>
+        <section
+          class="c18"
+        >
+          <section
+            class="c2"
+          >
+            <img
+              alt="Rating star"
+              src="assets/icons/star.svg"
+            />
+          </section>
+          <p
+            class="c4"
+          >
+            4.8
+          </p>
+        </section>
+      </section>
+      <section
+        class="c14"
+      >
+        <section
+          class="c15"
+        >
+          <section
+            class="c20"
+          >
+            <img
+              alt="Music icon"
+              src="assets/icons/music.svg"
+            />
+          </section>
+          <section
+            class="c17"
+          >
+            <h2
+              class="c4"
+            >
+              Music
+            </h2>
+            <p
+              class="c4"
+            >
+              10 Questions
+            </p>
+          </section>
+        </section>
+        <section
+          class="c18"
+        >
+          <section
+            class="c2"
+          >
+            <img
+              alt="Rating star"
+              src="assets/icons/star.svg"
+            />
+          </section>
+          <p
+            class="c4"
+          >
+            4.8
+          </p>
+        </section>
+      </section>
+    </section>
+  </main>
+</div>
+`;

@@ -1,0 +1,325 @@
+// Vitest Snapshot v1
+
+exports[`<CategoryCard /> > should render <CategoryCard /> with rating 1`] = `
+.c4 {
+  font-size: 1.6rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FFE3BE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 10px 24px 54px rgba(51,51,51,0.03);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 1.6rem 0;
+}
+
+.c0 > * {
+  margin: 1.6rem;
+  margin-right: 1.9rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.c1 > section:has(img) {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 10px 24px 54px rgba(51,51,51,0.05);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 50px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.c3 h2,
+.c3 p {
+  margin: 0;
+}
+
+.c3 h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.c3 p {
+  color: #999999;
+  font-family: "Nunito",sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.6rem;
+}
+
+.c5 p {
+  font-size: 1.4rem;
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <section
+      class="c1"
+    >
+      <section
+        class="c2"
+      >
+        <img
+          alt="title test icon"
+          src="assets/icons/desktop.svg"
+        />
+      </section>
+      <section
+        class="c3"
+      >
+        <h2
+          class="c4"
+        >
+          title test
+        </h2>
+        <p
+          class="c4"
+        >
+          description test
+        </p>
+      </section>
+    </section>
+    <section
+      class="c5"
+    >
+      <section
+        class="c6"
+      >
+        <img
+          alt="Rating star"
+          src="assets/icons/star.svg"
+        />
+      </section>
+      <p
+        class="c4"
+      >
+        4.8
+      </p>
+    </section>
+  </section>
+</div>
+`;
+
+exports[`<CategoryCard /> > should render <CategoryCard /> without rating 1`] = `
+.c4 {
+  font-size: 1.6rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FFE3BE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 10px 24px 54px rgba(51,51,51,0.03);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 1.6rem 0;
+}
+
+.c0 > * {
+  margin: 1.6rem;
+  margin-right: 1.9rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.c1 > section:has(img) {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 10px 24px 54px rgba(51,51,51,0.05);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 50px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.c3 h2,
+.c3 p {
+  margin: 0;
+}
+
+.c3 h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.c3 p {
+  color: #999999;
+  font-family: "Nunito",sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <section
+      class="c1"
+    >
+      <section
+        class="c2"
+      >
+        <img
+          alt="title test icon"
+          src="assets/icons/desktop.svg"
+        />
+      </section>
+      <section
+        class="c3"
+      >
+        <h2
+          class="c4"
+        >
+          title test
+        </h2>
+        <p
+          class="c4"
+        >
+          description test
+        </p>
+      </section>
+    </section>
+  </section>
+</div>
+`;
