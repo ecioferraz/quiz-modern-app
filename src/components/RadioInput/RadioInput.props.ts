@@ -1,5 +1,7 @@
-import { ReactNode } from 'react';
-
-type RadioInputProps = { children: ReactNode };
+type RadioInputProps = {
+  answer?: 'correct' | 'wrong';
+  iconSrc: string;
+  option: string;
+};
 
 export default RadioInputProps;
