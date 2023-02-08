@@ -11,8 +11,13 @@ describe('<Button />', () => {
 
     expect(button).toMatchInlineSnapshot(`
       .c0 {
+        border: none;
+        border-radius: 10px;
+        font-size: 1.4rem;
+        font-weight: 600;
         height: 4.8rem;
         font-weight: 600;
+        width: 100%;
       }
 
       <button
