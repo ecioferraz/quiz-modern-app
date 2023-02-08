@@ -10,10 +10,37 @@ describe('<DetailList />', () => {
     const detailList = screen.getByRole('list');
 
     expect(detailList).toMatchInlineSnapshot(`
+      .c0 {
+        font-size: 1.4rem;
+        padding-left: 1.6rem;
+      }
+
+      .c0 li {
+        color: #666666;
+        font-family: "Nunito",sans-serif;
+        margin: 2.4rem 0;
+      }
+
+      .c0 li::marker {
+        color: #333333;
+      }
+
+      .c0 li:last-child {
+        margin-bottom: 0;
+      }
+
       <ul
-        class=""
+        class="c0"
       >
-        Children
+        <li>
+          10 point awarded for a correct answer and no marks for a incorrect answer
+        </li>
+        <li>
+          Tap on options to select the correct answer
+        </li>
+        <li>
+          Click submit if you are sure you want to complete all the quizzes
+        </li>
       </ul>
     `);
   });

@@ -1,5 +1,3 @@
-import { ReactNode } from 'react';
-
-type DetailListProps = { children: ReactNode };
+type DetailListProps = { item: string };
 
 export default DetailListProps;
