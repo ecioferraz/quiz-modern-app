@@ -7,14 +7,18 @@ import * as Styled from './styles';
 export default function Detail() {
   return (
     <>
-      <Header />
+      <Header
+        alt="More options"
+        iconSrc="assets/icons/config-dots.svg"
+        title="Detail Quiz"
+      />
       <Styled.Container>
         <CategoryCard
-          background='#EAEEFF'
-          description='10 Questions'
-          iconSrc='assets/icons/ball.svg'
+          background="#EAEEFF"
+          description="10 Questions"
+          iconSrc="assets/icons/ball.svg"
           rating
-          title='Sport'
+          title="Sport"
         />
         <QuizExplanation />
         <Button>Get Started</Button>
