@@ -1,8 +1,9 @@
 type CategoryCardProps = {
   background: string;
-  category: string;
+  description: string;
   iconSrc: string;
   rating?: boolean;
+  title: string;
 };
 
 export default CategoryCardProps;

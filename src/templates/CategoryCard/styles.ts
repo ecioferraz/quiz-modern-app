@@ -52,6 +52,7 @@ export const CategoryDescriptionContainer = styled.section`
 
     p {
       color: ${theme.font.color.tertiaryColor};
+      font-family: ${theme.font.family.secondaryFont};
       font-size: 1.2rem;
       font-weight: ${theme.font.weight.regular};
     }
@@ -63,5 +64,9 @@ export const RatingContainer = styled.section`
     align-items: center;
     display: flex;
     gap: 0.6rem;
+
+    p {
+      font-size: 1.4rem;
+    }
   `}
 `;

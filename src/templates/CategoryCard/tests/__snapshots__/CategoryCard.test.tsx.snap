@@ -2,7 +2,34 @@
 
 exports[`<CategoryCard /> > should render <CategoryCard /> with rating 1`] = `
 .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: #FFE3BE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .c4 {
@@ -87,6 +114,7 @@ exports[`<CategoryCard /> > should render <CategoryCard /> with rating 1`] = `
 
 .c3 p {
   color: #999999;
+  font-family: "Nunito",sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
 }
@@ -103,6 +131,10 @@ exports[`<CategoryCard /> > should render <CategoryCard /> with rating 1`] = `
   gap: 0.6rem;
 }
 
+.c5 p {
+  font-size: 1.4rem;
+}
+
 <div>
   <section
     class="c0"
@@ -114,7 +146,7 @@ exports[`<CategoryCard /> > should render <CategoryCard /> with rating 1`] = `
         class="c2"
       >
         <img
-          alt="Technology icon"
+          alt="undefined icon"
           src="assets/icons/desktop.svg"
         />
       </section>
@@ -123,21 +155,17 @@ exports[`<CategoryCard /> > should render <CategoryCard /> with rating 1`] = `
       >
         <h2
           class="c4"
-        >
-          Technology
-        </h2>
+        />
         <p
           class="c4"
-        >
-          10 Questions
-        </p>
+        />
       </section>
     </section>
     <section
       class="c5"
     >
       <section
-        class=""
+        class="c6"
       >
         <img
           alt="Rating star"
@@ -156,7 +184,19 @@ exports[`<CategoryCard /> > should render <CategoryCard /> with rating 1`] = `
 
 exports[`<CategoryCard /> > should render <CategoryCard /> without rating 1`] = `
 .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: #FFE3BE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .c4 {
@@ -241,6 +281,7 @@ exports[`<CategoryCard /> > should render <CategoryCard /> without rating 1`] = 
 
 .c3 p {
   color: #999999;
+  font-family: "Nunito",sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
 }
@@ -256,7 +297,7 @@ exports[`<CategoryCard /> > should render <CategoryCard /> without rating 1`] = 
         class="c2"
       >
         <img
-          alt="Technology icon"
+          alt="undefined icon"
           src="assets/icons/desktop.svg"
         />
       </section>
@@ -265,14 +306,10 @@ exports[`<CategoryCard /> > should render <CategoryCard /> without rating 1`] = 
       >
         <h2
           class="c4"
-        >
-          Technology
-        </h2>
+        />
         <p
           class="c4"
-        >
-          10 Questions
-        </p>
+        />
       </section>
     </section>
   </section>
