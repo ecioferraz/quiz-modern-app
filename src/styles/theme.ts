@@ -32,22 +32,6 @@ export const theme = {
       bold: 700,
     },
   },
-  media: {
-    height: {
-      gteSmall: '(min-height: 540px)',
-      gteMedium: '(min-height: 768px',
-      gteXSmall: '(min-height: 375px)',
-      lteSmall: '(max-height: 540px)',
-      lteMedium: '(max-height: 768px)',
-      lteXSmall: '(max-height: 375px)',
-    },
-    width: {
-      gteMedium: '(min-width: 768px)',
-      lteHuge: '(max-width: 1280px)',
-      lteLarge: '(max-width: 846px)',
-      lteMedium: '(max-width: 768px)',
-    },
-  },
   spacings: {
     xsmall: '0.8rem',
     small: '1.6rem',

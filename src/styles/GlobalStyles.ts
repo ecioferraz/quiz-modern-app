@@ -7,7 +7,6 @@ export const GlobalStyles = createGlobalStyle`
       font-family: ${theme.font.family.default};
       margin: 0;
       padding: 0;
-      /* transition: 0.8s all ease-in-out; */
     }
 
     html {
@@ -38,6 +37,10 @@ export const GlobalStyles = createGlobalStyle`
 
     p {
       margin: ${theme.spacings.small} 0;
+    }
+
+    button {
+      cursor: pointer;
     }
   `}
 `;

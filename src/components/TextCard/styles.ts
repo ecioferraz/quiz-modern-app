@@ -19,19 +19,11 @@ const textSize = {
   `,
   huge: (theme: DefaultTheme) => css`
     font-size: ${theme.font.sizes.huge};
-    ${mediaFont(theme)};
   `,
   xhuge: (theme: DefaultTheme) => css`
     font-size: ${theme.font.sizes.xhuge};
-    ${mediaFont(theme)};
 `,
 };
-
-const mediaFont = (theme: DefaultTheme) => css`
-  @media ${theme.media.width.lteMedium} {
-    font-size: ${theme.font.sizes.xxlarge};
-  }
-`;
 
 export const Container = styled.h1<Pick<TextCardProps, 'size'>>`
   ${({ size = 'small', theme }) => css`
