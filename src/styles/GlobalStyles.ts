@@ -23,8 +23,8 @@ export const GlobalStyles = createGlobalStyle`
       color: ${theme.font.color.primaryColor};
       font-family: ${theme.font.family.default};
       font-size: ${theme.font.sizes.small};
+      padding: 0 ${theme.spacings.medium};
       position: absolute;
-      padding: ${theme.spacings.xlarge} ${theme.spacings.medium};
       width: 100%;
     }
 
