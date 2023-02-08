@@ -12,7 +12,7 @@ describe('<TextCard />', () => {
     const textCard = screen.getByRole('heading', { name: 'default text' });
 
     expect(textCard).toHaveStyle({
-      'font-size': theme.font.sizes.huge,
+      'font-size': theme.font.sizes.small,
     });
   });
 

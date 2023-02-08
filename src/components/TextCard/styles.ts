@@ -34,7 +34,7 @@ const mediaFont = (theme: DefaultTheme) => css`
 `;
 
 export const Container = styled.h1<Pick<TextCardProps, 'size'>>`
-  ${({ size = 'huge', theme }) => css`
+  ${({ size = 'small', theme }) => css`
     ${textSize[size](theme)};
   `}
 `;
