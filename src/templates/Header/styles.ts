@@ -13,6 +13,27 @@ export const Container = styled.header`
       height: ${theme.spacings.medium};
       width: ${theme.spacings.medium};
     }
+
+    section:has(span) {
+      align-items: center;
+      display: flex;
+      gap: 0.3rem;
+      border-radius: 16px;
+      height: 2.2rem;
+      width: 7rem;
+      
+      img {
+        height: ${theme.spacings.small};
+        width: ${theme.spacings.small};
+      }
+      
+      span {
+        color: #21BDCA;
+        font-family: ${theme.font.family.secondaryFont};
+        font-size: 1.2rem;
+        font-weight: ${theme.font.weight.regular};
+      }
+    }
   `}
 `;
 

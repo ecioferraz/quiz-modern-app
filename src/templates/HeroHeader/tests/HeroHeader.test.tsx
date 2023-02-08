@@ -7,6 +7,10 @@ describe('<HeroHeader />', () => {
     const { container } = renderTheme(<HeroHeader username='username test' />);
 
     expect(container).toMatchInlineSnapshot(`
+      .c4 {
+        font-size: 1.6rem;
+      }
+
       .c2 {
         -webkit-align-items: center;
         -webkit-box-align: center;
@@ -20,10 +24,6 @@ describe('<HeroHeader />', () => {
         -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-      }
-
-      .c4 {
-        font-size: 1.6rem;
       }
 
       .c0 {

@@ -7,6 +7,10 @@ describe('<Header />', () => {
     const { container } = renderTheme(<Header />);
 
     expect(container).toMatchInlineSnapshot(`
+      .c3 {
+        font-size: 1.6rem;
+      }
+
       .c2 {
         -webkit-align-items: center;
         -webkit-box-align: center;
@@ -22,8 +26,20 @@ describe('<Header />', () => {
         justify-content: center;
       }
 
-      .c3 {
-        font-size: 1.6rem;
+      .c4 {
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background: #E1F1F2;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
       }
 
       .c0 {
@@ -47,6 +63,33 @@ describe('<Header />', () => {
       .c0 img {
         height: 2.4rem;
         width: 2.4rem;
+      }
+
+      .c0 section:has(span) {
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        gap: 0.3rem;
+        border-radius: 16px;
+        height: 2.2rem;
+        width: 7rem;
+      }
+
+      .c0 section:has(span) img {
+        height: 1.6rem;
+        width: 1.6rem;
+      }
+
+      .c0 section:has(span) span {
+        color: #21BDCA;
+        font-family: "Nunito",sans-serif;
+        font-size: 1.2rem;
+        font-weight: 400;
       }
 
       .c1 {
@@ -82,17 +125,12 @@ describe('<Header />', () => {
             </section>
             <h1
               class="c3"
-            >
-              Detail Quiz
-            </h1>
+            />
           </section>
           <section
-            class="c2"
+            class="c4"
           >
-            <img
-              alt="More options"
-              src="assets/icons/config-dots.svg"
-            />
+            <img />
           </section>
         </header>
       </div>
