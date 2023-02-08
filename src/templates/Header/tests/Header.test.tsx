@@ -41,7 +41,6 @@ describe('<Header />', () => {
         justify-content: space-between;
         height: 2.4rem;
         margin-bottom: 3.2rem;
-        margin-top: 4.0rem;
         width: 100%;
       }
 

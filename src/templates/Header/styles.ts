@@ -7,7 +7,6 @@ export const Container = styled.header`
     justify-content: space-between;
     height: ${theme.spacings.medium};
     margin-bottom: ${theme.spacings.large};
-    margin-top: ${theme.spacings.xlarge};
     width: 100%;
 
     img {

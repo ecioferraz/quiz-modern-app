@@ -40,7 +40,6 @@ describe('<HeroHeader />', () => {
         -ms-flex-pack: justify;
         justify-content: space-between;
         height: 4.0rem;
-        margin-top: 4.1rem;
       }
 
       .c0 img {

@@ -23,9 +23,13 @@ export const GlobalStyles = createGlobalStyle`
       color: ${theme.font.color.primaryColor};
       font-family: ${theme.font.family.default};
       font-size: ${theme.font.sizes.small};
-      padding: 0 ${theme.spacings.medium};
+      padding: ${theme.spacings.xlarge} ${theme.spacings.medium};
       position: absolute;
       width: 100%;
+
+      @media screen and (min-width: 768px) {
+        width: 50%;
+      }
     }
 
     h1, h2, h3, h4, h5, h6 {

@@ -6,7 +6,6 @@ export const Container = styled.header`
     display: flex;
     justify-content: space-between;
     height: ${theme.spacings.xlarge};
-    margin-top: 4.1rem;
 
     img {
       height: ${theme.spacings.medium};
