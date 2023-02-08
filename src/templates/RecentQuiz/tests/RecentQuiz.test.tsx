@@ -7,24 +7,39 @@ describe('<RecentQuiz />', () => {
     const { container } = renderTheme(<RecentQuiz />);
 
     expect(container).toMatchInlineSnapshot(`
-      .c4 {
+      .c5 {
         background: #F2F2F2;
         border-radius: 10rem;
         height: 0.6rem;
       }
 
-      .c5 {
+      .c6 {
         background: #21BDCA;
         border-radius: 10rem;
         height: 0.6rem;
         width: 65%;
       }
 
-      .c6 {
+      .c7 {
         background: #5372E7;
         border-radius: 10rem;
         height: 0.6rem;
         width: 85%;
+      }
+
+      .c4 {
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
       }
 
       .c1 {
@@ -37,7 +52,10 @@ describe('<RecentQuiz />', () => {
 
       .c0 h1 {
         color: #999999;
+        font-size: 1.4rem;
         font-weight: 600;
+        margin-bottom: 1.6rem;
+        margin-top: 0;
       }
 
       .c2 {
@@ -88,6 +106,7 @@ describe('<RecentQuiz />', () => {
       .c3 h2 {
         font-size: 1.4rem;
         font-weight: 600;
+        margin-bottom: 0.8rem;
       }
 
       .c3 p {
@@ -95,6 +114,7 @@ describe('<RecentQuiz />', () => {
         font-family: "Nunito",sans-serif;
         font-size: 1.2rem;
         font-weight: 400;
+        margin-top: 0.8rem;
       }
 
       <div>
@@ -113,7 +133,7 @@ describe('<RecentQuiz />', () => {
               class="c3"
             >
               <section
-                class=""
+                class="c4"
               >
                 <img
                   alt="Reading icon"
@@ -133,10 +153,10 @@ describe('<RecentQuiz />', () => {
                 %
               </p>
               <div
-                class="c4"
+                class="c5"
               >
                 <div
-                  class="c5"
+                  class="c6"
                   width="65"
                 />
               </div>
@@ -145,7 +165,7 @@ describe('<RecentQuiz />', () => {
               class="c3"
             >
               <section
-                class=""
+                class="c4"
               >
                 <img
                   alt="Speaking icon"
@@ -165,10 +185,10 @@ describe('<RecentQuiz />', () => {
                 %
               </p>
               <div
-                class="c4"
+                class="c5"
               >
                 <div
-                  class="c6"
+                  class="c7"
                   width="85"
                 />
               </div>

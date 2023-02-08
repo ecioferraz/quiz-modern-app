@@ -4,7 +4,10 @@ export const Container = styled.section`
   ${({ theme }) => css`
     h1 {
       color: ${theme.font.color.tertiaryColor};
+      font-size: 1.4rem;
       font-weight: ${theme.font.weight.semiBold};
+      margin-bottom: ${theme.spacings.small};
+      margin-top: 0;
     }
     
     margin: 1.6rem 0;
@@ -43,6 +46,7 @@ export const RecentQuizCardContainer = styled.section`
     h2 {
       font-size: 1.4rem;
       font-weight: ${theme.font.weight.semiBold};
+      margin-bottom: ${theme.spacings.xsmall};
     }
 
     p {
@@ -50,6 +54,7 @@ export const RecentQuizCardContainer = styled.section`
       font-family: ${theme.font.family.secondaryFont};
       font-size: 1.2rem;
       font-weight: ${theme.font.weight.regular};
+      margin-top: ${theme.spacings.xsmall};;
     }
   `}
 `;
