@@ -1,4 +1,3 @@
-import SvgCard from '../../components/SvgCard';
 import TextCard from '../../components/TextCard';
 import CategoryCard from '../CategoryCard';
 import CategoryCardProps from '../CategoryCard/CategoryCard.props';
@@ -8,31 +7,35 @@ export default function PopularQuiz() {
   const popularQuizCards: CategoryCardProps[] = [
     {
       background: '#FFE3BE',
-      category: 'Technology',
+      description: '10 Questions',
       iconSrc: 'assets/icons/desktop.svg',
+      title: 'Technology',
     },
     {
       background: '#EAEEFF',
-      category: 'Sport',
+      description: '10 Questions',
       iconSrc: 'assets/icons/ball.svg',
+      title: 'Sport',
     },
     {
       background: '#F6E5E5',
-      category: 'Music',
+      description: '10 Questions',
       iconSrc: 'assets/icons/music.svg',
+      title: 'Music',
     },
   ];
 
   return (
     <Styled.Container>
       <TextCard size="small">Popular Quiz</TextCard>
-      {popularQuizCards.map(({ background, category, iconSrc }) => (
+      {popularQuizCards.map(({ background, description, iconSrc, title }) => (
         <CategoryCard
           background={background}
-          category={category}
+          description={description}
           iconSrc={iconSrc}
-          key={category}
+          key={title}
           rating
+          title={title}
         />
       ))}
     </Styled.Container>
