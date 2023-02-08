@@ -1,9 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import { screen } from '@testing-library/react';
-import renderTheme from '../../../styles/renderTheme';
-import TextCard from '..';
 import { ThemeProvider } from 'styled-components';
+import renderTheme from '../../../styles/renderTheme';
 import { theme } from '../../../styles/theme';
+import TextCard from '..';
 
 describe('<TextCard />', () => {
   it('should render with default values', () => {

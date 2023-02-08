@@ -1,6 +1,6 @@
+import { describe, expect, it } from 'vitest';
 import renderTheme from '../../../styles/renderTheme';
 import Achievement from '..';
-import { describe, expect, it } from 'vitest';
 
 describe('<Achievement />', () => {
   it('should render <Achievement />', () => {

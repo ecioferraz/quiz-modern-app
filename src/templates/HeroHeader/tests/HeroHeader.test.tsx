@@ -1,6 +1,6 @@
+import { describe, expect, it } from 'vitest';
 import renderTheme from '../../../styles/renderTheme';
 import HeroHeader from '..';
-import { describe, expect, it } from 'vitest';
 
 describe('<HeroHeader />', () => {
   it('should render <HeroHeader />', () => {

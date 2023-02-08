@@ -1,0 +1,410 @@
+// Vitest Snapshot v1
+
+exports[`<Quiz /> > should render <Quiz /> 1`] = `
+.c5 p {
+  color: #999999;
+  font-family: "Nunito",sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.c6 {
+  background: #F2F2F2;
+  border-radius: 10rem;
+  height: 0.6rem;
+}
+
+.c7 {
+  background: #21BDCA;
+  border-radius: 10rem;
+  height: 0.6rem;
+  width: 64%;
+}
+
+.c3 {
+  font-size: 1.6rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #E1F1F2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 2.4rem;
+  margin-bottom: 3.2rem;
+  width: 100%;
+}
+
+.c0 img {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.c0 section:has(span) {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.3rem;
+  border-radius: 16px;
+  height: 2.2rem;
+  width: 7rem;
+}
+
+.c0 section:has(span) img {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+.c0 section:has(span) span {
+  color: #21BDCA;
+  font-family: "Nunito",sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 h1 {
+  margin: 0 3.2rem;
+  font-weight: 600;
+}
+
+.c13 {
+  border: none;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  height: 4.8rem;
+  font-weight: 600;
+  width: 100%;
+}
+
+.c9 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #219653;
+  border-radius: 10px;
+  box-shadow: 10px 24px 54px rgba(51,51,51,0.05);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 1.6rem;
+  padding: 1.6rem;
+}
+
+.c9 img {
+  width: 2.4rem;
+}
+
+.c9 p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.c10 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 10px 24px 54px rgba(51,51,51,0.05);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 1.6rem;
+  padding: 1.6rem;
+}
+
+.c10 img {
+  width: 2.4rem;
+}
+
+.c10 p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.c11 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #F6E5E5;
+  border-radius: 10px;
+  box-shadow: 10px 24px 54px rgba(51,51,51,0.05);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 1.6rem;
+  padding: 1.6rem;
+}
+
+.c11 img {
+  width: 2.4rem;
+}
+
+.c11 p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.c8 h1 {
+  font-weight: 600;
+  margin-right: 5.6rem;
+}
+
+.c8 img {
+  margin-bottom: 0.8rem;
+  width: 100%;
+}
+
+.c12 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 5.8rem;
+}
+
+.c12 button {
+  font-size: 1.4rem;
+  font-weight: 600;
+  width: 48%;
+}
+
+.c12 button:first-child {
+  background: #FAFAFA;
+  border: 1px solid #21BDCA;
+  color: #21BDCA;
+}
+
+.c12 button:last-child {
+  background: #21BDCA;
+  color: #FFF;
+}
+
+<div>
+  <header
+    class="c0"
+  >
+    <section
+      class="c1"
+    >
+      <section
+        class="c2"
+      >
+        <img
+          alt="Go back"
+          src="assets/icons/back-arrow.svg"
+        />
+      </section>
+      <h1
+        class="c3"
+      >
+        Technology
+      </h1>
+    </section>
+    <section
+      class="c4"
+    >
+      <img
+        alt="Remaining time"
+        src="assets/icons/blue-clock.svg"
+      />
+      <span
+        class="c3"
+      >
+        16:35
+      </span>
+    </section>
+  </header>
+  <main
+    class=""
+  >
+    <section
+      class="c5"
+    >
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+          width="64"
+        />
+      </div>
+      <p
+        class="c3"
+      >
+        Completed 64%
+      </p>
+    </section>
+  </main>
+  <form
+    aria-label="question"
+    class="c8"
+  >
+    <h1
+      class="c3"
+    >
+      The image below is a field image used for?
+    </h1>
+    <img
+      src="assets/images/question-image.png"
+    />
+    <section
+      class="c9"
+    >
+      <section
+        class="c2"
+      >
+        <img
+          alt="Radio option"
+          src="assets/icons/circle.svg"
+        />
+      </section>
+      <p
+        class="c3"
+      >
+        Football
+      </p>
+    </section>
+    <section
+      class="c10"
+    >
+      <section
+        class="c2"
+      >
+        <img
+          alt="Radio option"
+          src="assets/icons/circle.svg"
+        />
+      </section>
+      <p
+        class="c3"
+      >
+        Basketball
+      </p>
+    </section>
+    <section
+      class="c11"
+    >
+      <section
+        class="c2"
+      >
+        <img
+          alt="Radio option"
+          src="assets/icons/x.svg"
+        />
+      </section>
+      <p
+        class="c3"
+      >
+        Volleyball
+      </p>
+    </section>
+    <section
+      class="c10"
+    >
+      <section
+        class="c2"
+      >
+        <img
+          alt="Radio option"
+          src="assets/icons/circle.svg"
+        />
+      </section>
+      <p
+        class="c3"
+      >
+        Shuttlecock
+      </p>
+    </section>
+    <section
+      class="c12"
+    >
+      <button
+        class="c13"
+      >
+        Previous
+      </button>
+      <button
+        class="c13"
+      >
+        Next
+      </button>
+    </section>
+  </form>
+</div>
+`;

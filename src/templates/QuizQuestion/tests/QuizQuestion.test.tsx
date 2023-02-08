@@ -1,6 +1,6 @@
 import renderTheme from '../../../styles/renderTheme';
-import QuizQuestion from '..';
 import { screen } from '@testing-library/react';
+import QuizQuestion from '..';
 
 describe('<QuizQuestion />', () => {
   it('should render <QuizQuestion />', () => {

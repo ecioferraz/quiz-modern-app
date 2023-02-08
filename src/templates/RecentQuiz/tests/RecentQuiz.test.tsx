@@ -1,6 +1,6 @@
+import { describe, expect, it } from 'vitest';
 import renderTheme from '../../../styles/renderTheme';
 import RecentQuiz from '..';
-import { describe, expect, it } from 'vitest';
 
 describe('<RecentQuiz />', () => {
   it('should render <RecentQuiz />', () => {

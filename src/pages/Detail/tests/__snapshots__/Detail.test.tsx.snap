@@ -1,0 +1,455 @@
+// Vitest Snapshot v1
+
+exports[`<Detail /> > should render <Detail /> 1`] = `
+.c14 {
+  border: none;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  height: 4.8rem;
+  font-weight: 600;
+  width: 100%;
+}
+
+.c3 {
+  font-size: 1.6rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #E1F1F2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c8 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #EAEEFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c12 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FF9F241A;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 10px 24px 54px rgba(51,51,51,0.03);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 1.6rem 0;
+}
+
+.c6 > * {
+  margin: 1.6rem;
+  margin-right: 1.9rem;
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.c7 > section:has(img) {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 10px 24px 54px rgba(51,51,51,0.05);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 50px;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.c9 h2,
+.c9 p {
+  margin: 0;
+}
+
+.c9 h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.c9 p {
+  color: #999999;
+  font-family: "Nunito",sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.c10 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.6rem;
+}
+
+.c10 p {
+  font-size: 1.4rem;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 2.4rem;
+  margin-bottom: 3.2rem;
+  width: 100%;
+}
+
+.c0 img {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.c0 section:has(span) {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.3rem;
+  border-radius: 16px;
+  height: 2.2rem;
+  width: 7rem;
+}
+
+.c0 section:has(span) img {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+.c0 section:has(span) span {
+  color: #21BDCA;
+  font-family: "Nunito",sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 h1 {
+  margin: 0 3.2rem;
+  font-weight: 600;
+}
+
+.c13 {
+  font-size: 1.4rem;
+  padding-left: 1.6rem;
+}
+
+.c13 li {
+  color: #666666;
+  font-family: "Nunito",sans-serif;
+  margin: 2.4rem 0;
+}
+
+.c13 li::marker {
+  color: #333333;
+}
+
+.c13 li:last-child {
+  margin-bottom: 0;
+}
+
+.c11 h1 {
+  font-weight: 600;
+}
+
+.c11 section:has(> img) {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.c5 button {
+  background: #21BDCA;
+  color: #FFF;
+  margin-top: 9.8rem;
+}
+
+<div>
+  <header
+    class="c0"
+  >
+    <section
+      class="c1"
+    >
+      <section
+        class="c2"
+      >
+        <img
+          alt="Go back"
+          src="assets/icons/back-arrow.svg"
+        />
+      </section>
+      <h1
+        class="c3"
+      >
+        Detail Quiz
+      </h1>
+    </section>
+    <section
+      class="c4"
+    >
+      <img
+        alt="More options"
+        src="assets/icons/config-dots.svg"
+      />
+    </section>
+  </header>
+  <main
+    class="c5"
+  >
+    <section
+      class="c6"
+    >
+      <section
+        class="c7"
+      >
+        <section
+          class="c8"
+        >
+          <img
+            alt="Sport icon"
+            src="assets/icons/ball.svg"
+          />
+        </section>
+        <section
+          class="c9"
+        >
+          <h2
+            class="c3"
+          >
+            Sport
+          </h2>
+          <p
+            class="c3"
+          >
+            10 Questions
+          </p>
+        </section>
+      </section>
+      <section
+        class="c10"
+      >
+        <section
+          class="c2"
+        >
+          <img
+            alt="Rating star"
+            src="assets/icons/star.svg"
+          />
+        </section>
+        <p
+          class="c3"
+        >
+          4.8
+        </p>
+      </section>
+    </section>
+    <section
+      class="c11"
+    >
+      <h1
+        class="c3"
+      >
+        Brief explanation about this quiz
+      </h1>
+      <section
+        class="c6"
+      >
+        <section
+          class="c7"
+        >
+          <section
+            class="c12"
+          >
+            <img
+              alt="10 Question icon"
+              src="assets/icons/notebook.svg"
+            />
+          </section>
+          <section
+            class="c9"
+          >
+            <h2
+              class="c3"
+            >
+              10 Question
+            </h2>
+            <p
+              class="c3"
+            >
+              10 point for a correct answer
+            </p>
+          </section>
+        </section>
+      </section>
+      <section
+        class="c6"
+      >
+        <section
+          class="c7"
+        >
+          <section
+            class="c12"
+          >
+            <img
+              alt="1 hour 20 min icon"
+              src="assets/icons/orange-clock.svg"
+            />
+          </section>
+          <section
+            class="c9"
+          >
+            <h2
+              class="c3"
+            >
+              1 hour 20 min
+            </h2>
+            <p
+              class="c3"
+            >
+              Total duration of the quiz
+            </p>
+          </section>
+        </section>
+      </section>
+      <h1
+        class="c3"
+      >
+        Please read the text below carefully so you can understand it
+      </h1>
+      <ul
+        class="c13"
+      >
+        <li>
+          10 point awarded for a correct answer and no marks for a incorrect answer
+        </li>
+        <li>
+          Tap on options to select the correct answer
+        </li>
+        <li>
+          Click submit if you are sure you want to complete all the quizzes
+        </li>
+      </ul>
+    </section>
+    <button
+      class="c14"
+    >
+      Get Started
+    </button>
+  </main>
+</div>
+`;
